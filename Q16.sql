@@ -1,0 +1,3 @@
+SELECT  employees.DEPARTMENT_ID, DEPARTMENT_NAME, FIRST_NAME
+FROM departments
+JOIN employees ON EMPLOYEE_ID = departments.MANAGER_ID

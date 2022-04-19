@@ -1,0 +1,1 @@
+SELECT FIRST_NAME, LAST_NAME FROM as3.employees;
